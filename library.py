@@ -17,5 +17,5 @@ from models import Book
 lib = Library()
 lib.add_book(Book("Harry potter","J.K.Roeling",2007))
 lib.add_book(Book("Spider man","Stanli",2004))
-result = lib.searche("Spid man")
+result = lib.searche("Spider man")
 print(result)
